@@ -1,0 +1,15 @@
+[0m[[0minfo[0m] [0mPackaging /home/admin/project/scala/scalapass/scalapass/target/scala-2.12/hello_2.12-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	main/scala/encryption[0m
+[0m[[0mdebug[0m] [0m	  /home/admin/project/scala/scalapass/scalapass/target/scala-2.12/classes/main/scala/encryption[0m
+[0m[[0mdebug[0m] [0m	main/scala[0m
+[0m[[0mdebug[0m] [0m	  /home/admin/project/scala/scalapass/scalapass/target/scala-2.12/classes/main/scala[0m
+[0m[[0mdebug[0m] [0m	main[0m
+[0m[[0mdebug[0m] [0m	  /home/admin/project/scala/scalapass/scalapass/target/scala-2.12/classes/main[0m
+[0m[[0mdebug[0m] [0m	main/scala/encryption/Encryption.class[0m
+[0m[[0mdebug[0m] [0m	  /home/admin/project/scala/scalapass/scalapass/target/scala-2.12/classes/main/scala/encryption/Encryption.class[0m
+[0m[[0mdebug[0m] [0m	main/scala/encryption/Application$.class[0m
+[0m[[0mdebug[0m] [0m	  /home/admin/project/scala/scalapass/scalapass/target/scala-2.12/classes/main/scala/encryption/Application$.class[0m
+[0m[[0mdebug[0m] [0m	main/scala/encryption/Application.class[0m
+[0m[[0mdebug[0m] [0m	  /home/admin/project/scala/scalapass/scalapass/target/scala-2.12/classes/main/scala/encryption/Application.class[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

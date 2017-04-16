@@ -1,0 +1,26 @@
+compile
+run
+compile
+package
+compile
+reload
+run
+reload
+run
+reload
+run
+reload
+run
+resolvers ++= Seq(
+    "snapshots" at "http://oss.sonatype.org/content/repositories/snapshots",
+    "releases" at "http://oss.sonatype.org/content/repositories/releases"
+    )
+assembly
+reload
+run
+reload
+run
+reload
+run
+reload
+run
