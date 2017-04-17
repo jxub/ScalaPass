@@ -5,7 +5,7 @@ import java.nio.file.{Path, Files, FileSystem, FileSystems}
 
 // interface to be implemented also for
 // better storage ideas than mine
- // key and value traits are the essential schema of the data
+// key and value traits are the essential schema of the data
 // keys are filenames and values are the encrypted content
 trait BaseStorage {
     type key = Array[Byte]
