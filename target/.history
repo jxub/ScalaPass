@@ -30,3 +30,6 @@ compile
 compilr
 compile
 run
+reload
+run
+compile
