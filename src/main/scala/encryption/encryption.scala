@@ -1,4 +1,4 @@
-package main.scala.encryption
+package com.jxub.encryption
 
 import javax.crypto._
 import java.security.{SecureRandom, InvalidKeyException, NoSuchAlgorithmException}

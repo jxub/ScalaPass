@@ -2,34 +2,49 @@
 [0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
 [0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
 [0m[[0mdebug[0m] [0m[naha] 	added: Set()[0m
-[0m[[0mdebug[0m] [0m[naha] 	modified: Set(/home/admin/projects/scala/scalapass/src/main/scala/encryption/main.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] 	modified: Set(/home/admin/projects/scala/scalapass/src/main/scala/encryption/encryption.scala, /home/admin/projects/scala/scalapass/src/main/scala/encryption/storage.scala, /home/admin/projects/scala/scalapass/src/main/scala/encryption/main.scala)[0m
 [0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(/home/admin/projects/scala/scalapass/src/main/scala/encryption/main.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(/home/admin/projects/scala/scalapass/src/main/scala/encryption/encryption.scala, /home/admin/projects/scala/scalapass/src/main/scala/encryption/storage.scala, /home/admin/projects/scala/scalapass/src/main/scala/encryption/main.scala)[0m
 [0m[[0mdebug[0m] [0m[naha] [0m
 [0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
 [0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
-[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/admin/projects/scala/scalapass/src/main/scala/encryption/main.scala)[0m
-[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/admin/projects/scala/scalapass/src/main/scala/encryption/main.scala)[0m
-[0m[[0minfo[0m] [0mCompiling 1 Scala source to /home/admin/projects/scala/scalapass/target/scala-2.12/classes...[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/admin/projects/scala/scalapass/src/main/scala/encryption/encryption.scala, /home/admin/projects/scala/scalapass/src/main/scala/encryption/storage.scala, /home/admin/projects/scala/scalapass/src/main/scala/encryption/main.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/admin/projects/scala/scalapass/src/main/scala/encryption/encryption.scala, /home/admin/projects/scala/scalapass/src/main/scala/encryption/storage.scala, /home/admin/projects/scala/scalapass/src/main/scala/encryption/main.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Recompiling all 3 sources: invalidated sources (3) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 3 Scala sources to /home/admin/projects/scala/scalapass/target/scala-2.12/classes...[0m
 [0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.13:component from component compiler for Scala 2.12.1[0m
 [0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.13:component from component compiler for Scala 2.12.1[0m
-[0m[[0mdebug[0m] [0mRunning cached compiler 25307afe, interfacing (CompilerInterface) with Scala compiler version 2.12.1[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler ad11e0a, interfacing (CompilerInterface) with Scala compiler version 2.12.1[0m
 [0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
 [0m[[0mdebug[0m] [0m	-bootclasspath[0m
 [0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/home/admin/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.1.jar[0m
 [0m[[0mdebug[0m] [0m	-classpath[0m
 [0m[[0mdebug[0m] [0m	/home/admin/projects/scala/scalapass/target/scala-2.12/classes:/home/admin/projects/scala/scalapass/lib/scala-pickling_2.11-0.10.1.jar[0m
-[0m[[0mdebug[0m] [0mScala compilation took 4.154570937 s[0m
+[0m[[0mdebug[0m] [0mScala compilation took 3.40998906 s[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/admin/projects/scala/scalapass/src/main/scala/encryption/encryption.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/admin/projects/scala/scalapass/src/main/scala/encryption/encryption.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/admin/projects/scala/scalapass/src/main/scala/encryption/encryption.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/admin/projects/scala/scalapass/src/main/scala/encryption/encryption.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/admin/projects/scala/scalapass/src/main/scala/encryption/encryption.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	notify, TryToConvert, wait, $asInstanceOf, myDesKey, equals, DESEncryption, asInstanceOf, synchronized, $isInstanceOf, encrypt, notifyAll, isInstanceOf, decrypt, keygenerator, <init>, randomSeed, ==, desCipher, clone, toString, !=, getClass, ne, eq, ##, BaseEncryption, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/admin/projects/scala/scalapass/src/main/scala/encryption/storage.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/admin/projects/scala/scalapass/src/main/scala/encryption/storage.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/admin/projects/scala/scalapass/src/main/scala/encryption/storage.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/admin/projects/scala/scalapass/src/main/scala/encryption/storage.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/admin/projects/scala/scalapass/src/main/scala/encryption/storage.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	notify, wait, $asInstanceOf, equals, asInstanceOf, synchronized, $isInstanceOf, notifyAll, key, isInstanceOf, <init>, BaseStorage, MostlySafeStorage, ==, clone, put, toString, !=, get, getClass, ne, value, eq, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
 [0m[[0mdebug[0m] [0m[naha] Invalidating /home/admin/projects/scala/scalapass/src/main/scala/encryption/main.scala...[0m
 [0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/admin/projects/scala/scalapass/src/main/scala/encryption/main.scala...[0m
 [0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/admin/projects/scala/scalapass/src/main/scala/encryption/main.scala)[0m
 [0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/admin/projects/scala/scalapass/src/main/scala/encryption/main.scala)[0m
 [0m[[0mdebug[0m] [0m[naha] The /home/admin/projects/scala/scalapass/src/main/scala/encryption/main.scala source file has the following regular definitions changed:[0m
-[0m[[0mdebug[0m] [0m[naha] 	notify, CLIApp, wait, $asInstanceOf, equals, usage, asInstanceOf, executionStart, synchronized, $isInstanceOf, main, notifyAll, isInstanceOf, ==, clone, Application, $init$, toString, args, !=, getClass, ne, eq, delayedInit, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0m[naha] 	notify, CLIApp, wait, $asInstanceOf, equals, usage, asInstanceOf, executionStart, synchronized, $isInstanceOf, main, notifyAll, isInstanceOf, ==, clone, $init$, toString, args, !=, getClass, ne, eq, delayedInit, ##, finalize, hashCode.[0m
 [0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
 [0m[[0mdebug[0m] [0m[naha] New invalidations:[0m
 [0m[[0mdebug[0m] [0m[naha] 	Set()[0m

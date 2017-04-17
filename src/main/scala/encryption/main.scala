@@ -1,8 +1,11 @@
-package main.scala.encryption
+package main
+
+import com.jxub.encryption
+import com.jxub.storage
 
 object CLIApp extends App {
     val usage = """ScalaPass"""
     if (args.length == 0)
         println(usage)
-    println(1)
+    else println(1)
 }

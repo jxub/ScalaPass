@@ -1,11 +1,11 @@
-package main.scala.storage
+package com.jxub.storage
 
 import java.io.{File, FileInputStream, FileOutputStream}
 import java.nio.file.{Path, Files, FileSystem, FileSystems}
 
 // interface to be implemented also for
 // better storage ideas than mine
-// key and value traits are the essential schema of the data
+ // key and value traits are the essential schema of the data
 // keys are filenames and values are the encrypted content
 trait BaseStorage {
     type key = Array[Byte]
@@ -34,6 +34,6 @@ class MostlySafeStorage extends BaseStorage {
     def get(k: key): value = {
         val path = FileSystems.getDefault().getPath("", k.toString)
         val in = Files.readAllBytes(path)
-        in
+        in  // yep! it returns the value of in! yay!
     }
 }
