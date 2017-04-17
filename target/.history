@@ -24,3 +24,9 @@ reload
 run
 reload
 run
+quit
+exit
+compile
+compilr
+compile
+run
